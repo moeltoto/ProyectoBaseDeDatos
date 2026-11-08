@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProyectoBaseDeDatos.Properties
+namespace Pry_BaseDeDatos.Properties
 {
 
 

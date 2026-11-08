@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A202A895-DA40-4164-88E1-10B38C5B1E20}</ProjectGuid>
+    <ProjectGuid>{C5E5E6C6-4867-46A3-9258-6ABAAAD3824B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ProyectoBaseDeDatos</RootNamespace>
-    <AssemblyName>ProyectoBaseDeDatos</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Pry_BaseDeDatos</RootNamespace>
+    <AssemblyName>Pry_BaseDeDatos</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -46,14 +46,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Vista\Herramientas\PanelHelper.cs" />
+    <Compile Include="Vista\PaginaCursos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Vista\PaginaCursos.Designer.cs">
+      <DependentUpon>PaginaCursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\PaginaCursosComprados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\PaginaCursosComprados.Designer.cs">
+      <DependentUpon>PaginaCursosComprados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\PaginaCursosCreados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\PaginaCursosCreados.Designer.cs">
+      <DependentUpon>PaginaCursosCreados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\PaginaInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\PaginaInicio.Designer.cs">
+      <DependentUpon>PaginaInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\PaginaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\PaginaPrincipal.Designer.cs">
+      <DependentUpon>PaginaPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Vista\PaginaCursos.resx">
+      <DependentUpon>PaginaCursos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\PaginaCursosComprados.resx">
+      <DependentUpon>PaginaCursosComprados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\PaginaCursosCreados.resx">
+      <DependentUpon>PaginaCursosCreados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\PaginaInicio.resx">
+      <DependentUpon>PaginaInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\PaginaPrincipal.resx">
+      <DependentUpon>PaginaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +102,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +116,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controlador\" />
+    <Folder Include="Modelo\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoBaseDeDatos
+namespace Pry_BaseDeDatos.Vista
 {
-    public partial class Form1 : Form
+    public partial class PaginaCursosCreados : Form
     {
-        public Form1()
+        public PaginaCursosCreados()
         {
             InitializeComponent();
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

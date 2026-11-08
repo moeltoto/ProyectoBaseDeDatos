@@ -1,0 +1,14 @@
+C:\Users\imert\source\repos\Pry_BaseDeDatos\bin\Debug\Pry_BaseDeDatos.exe.config
+C:\Users\imert\source\repos\Pry_BaseDeDatos\bin\Debug\Pry_BaseDeDatos.exe
+C:\Users\imert\source\repos\Pry_BaseDeDatos\bin\Debug\Pry_BaseDeDatos.pdb
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.csproj.AssemblyReference.cache
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.Properties.Resources.resources
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.csproj.GenerateResource.cache
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.csproj.CoreCompileInputs.cache
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.exe
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.pdb
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.PaginaInicio.resources
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.PaginaPrincipal.resources
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.Vista.PaginaCursos.resources
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.Vista.PaginaCursosComprados.resources
+C:\Users\imert\source\repos\Pry_BaseDeDatos\obj\Debug\Pry_BaseDeDatos.Vista.PaginaCursosCreados.resources
